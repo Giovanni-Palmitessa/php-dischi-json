@@ -43,7 +43,7 @@ const app = Vue.createApp({
     }, 
     methods: {
         requestAlbums() {
-            axios.get('http://localhost/php-dischi-json/datas.php')
+            axios.get('datas.php')
                 .then(response => console.log(response.data));
         }
     },
