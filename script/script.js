@@ -20,6 +20,18 @@ const app = Vue.createApp({
                     artist = "Sting",
                     year = "1993",
                 ],
+                [
+                    img_URL = "assets/img/split.jpeg",
+                    album_name = "Steve Gadd band",
+                    artist = "Steve Gadd band",
+                    year = "2018",
+                ],
+                [
+                    img_URL = "assets/img/split.jpeg",
+                    album_name = "Steve Gadd band",
+                    artist = "Steve Gadd band",
+                    year = "2018",
+                ],
             ]
         }
     }
