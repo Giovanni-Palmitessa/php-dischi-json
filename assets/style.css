@@ -25,3 +25,17 @@ header  {
 main {
     background-color: cadetblue;
 }
+
+.card-container {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card {
+    width: calc((100% - 8rem) / 3);
+    background-color: rgb(9, 9, 67);
+    gap: 10px;
+    color: white;
+}

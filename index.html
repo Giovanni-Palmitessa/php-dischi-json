@@ -22,7 +22,14 @@
         <main>
             <div id="app">
                 <div class="container">
-                    
+                    <div class="card-container">
+                        <div class="card d-flex flex-column align-items-center" v-for="album in albums" :key="album.artist">
+                            <img :src="album.img_URL" class="w-75 pt-3" :alt="album.album_name">
+                            <h4>{{album.album_name}}</h4>
+                            <p>{{album.artist}}</p>
+                            <h5>{{album.year}}</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
