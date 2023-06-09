@@ -27,10 +27,10 @@ const app = Vue.createApp({
                     year = "2018",
                 ],
                 [
-                    img_URL = "assets/img/split.jpeg",
-                    album_name = "Steve Gadd band",
-                    artist = "Steve Gadd band",
-                    year = "2018",
+                    img_URL = "assets/img/stranger.jpeg",
+                    album_name = "Brave New World",
+                    artist = "iron Maiden",
+                    year = "2000",
                 ],
             ]
         }
