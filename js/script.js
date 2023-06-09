@@ -6,7 +6,8 @@ const app = Vue.createApp({
     }, 
     methods: {
         requestAlbums() {
-            axios.get('http://localhost/php-dischi-json/datas.php')
+            console.log('ciao');
+            axios.get('datas.php')
                 .then(response => this.albums = response.data);
         }
     },
