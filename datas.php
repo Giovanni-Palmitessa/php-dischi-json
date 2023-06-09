@@ -1,40 +1,6 @@
-<?php 
+<?php
 
-$albums [
-            [
-                img_URL = "assets/img/aquietplace.jpeg",
-                album_name = "New Jersey",
-                artist = "Bon Jovi",
-                year = "1988",
-            ],
-            [
-                img_URL = "assets/img/metal_lifting.jpg",
-                album_name = "Live at Wembley 86",
-                artist = "Queen",
-                year = "1992",
-            ],
-            [
-                img_URL = "assets/img/sinister.jpeg",
-                album_name = "Ten's Summoner's Tales",
-                artist = "Sting",
-                year = "1993",
-            ],
-            [
-                img_URL = "assets/img/split.jpeg",
-                album_name = "Steve Gadd band",
-                artist = "Steve Gadd band",
-                year = "2018",
-            ],
-            [
-                img_URL = "assets/img/stranger.jpeg",
-                album_name = "Brave New World",
-                artist = "Iron Maiden",
-                year = "2000",
-            ],
-            [
-                img_URL = "assets/img/young.jpeg",
-                album_name = "one more car, one more rider",
-                artist = "Eric Clapton",
-                year = "2002",
-            ],
-            ]
+$albums = file_get_contents('datas.json');
+
+header('Content-Type: application/json');
+echo json_encode($albums);
