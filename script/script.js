@@ -29,8 +29,14 @@ const app = Vue.createApp({
                 [
                     img_URL = "assets/img/stranger.jpeg",
                     album_name = "Brave New World",
-                    artist = "iron Maiden",
+                    artist = "Iron Maiden",
                     year = "2000",
+                ],
+                [
+                    img_URL = "assets/img/young.jpeg",
+                    album_name = "one more car, one more rider",
+                    artist = "Eric Clapton",
+                    year = "2002",
                 ],
             ]
         }
