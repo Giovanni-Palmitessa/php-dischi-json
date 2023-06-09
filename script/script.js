@@ -14,6 +14,12 @@ const app = Vue.createApp({
                     artist = "Queen",
                     year = "1992",
                 ],
+                [
+                    img_URL = "assets/img/sinister.jpeg",
+                    album_name = "Ten's Summoner's Tales",
+                    artist = "Sting",
+                    year = "1993",
+                ],
             ]
         }
     }
