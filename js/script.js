@@ -7,7 +7,6 @@ const app = Vue.createApp({
     }, 
     methods: {
         requestAlbums() {
-            console.log('ciao');
             axios.get('datas.php')
                 .then(response => this.albums = response.data);
         },
